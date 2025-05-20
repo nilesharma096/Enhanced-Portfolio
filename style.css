@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eae7dc;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #4169E1;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #F4F8FF;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #F4F8FF;
+    border-radius: 8px;
+}
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+footer {
+    background: #4169E1;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.map-container {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.map-container {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ffffff10;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;        /* Center horizontally */
+    width: 200px;             /* Increase image size */
+    height: auto;
+    border-radius: 10px;      /* Optional: Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: nice shadow */
+}
+#welcome {
+    text-align: center;
+    padding: 30px;
+    background-color: #fdf6f0; /* Soft aesthetic background */
+    border-radius: 10px;
+    margin: 20px;
+}
+.dark-mode {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+/* Apply dark background and text globally */
+.dark-mode {
+    background-color: #1e1e2f;
+    color: #ffffff;
+}
+
+/* Fix: Override header and footer styles in dark mode */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Fix: Section background override */
+.dark-mode section {
+    background-color: #2a2a40;
+    color: #ffffff;
+}
+
+/* Fix: Welcome section override */
+.dark-mode #welcome {
+    background-color: #2a2a40;
+    color: #ffffff;
+}
+
+/* Fix: Link colors in dark mode */
+.dark-mode a {
+    color: #aad8ff;
+}
+
+/* Optional: map container light tweak */
+.dark-mode .map-container {
+    background-color: #1a1a2d;
+}
+
+/* Toggle button in dark mode */
+.dark-mode #darkToggle {
+    background-color: #333;
+    color: #fff;
+}
+/* Base dark mode */
+.dark-mode {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+/* Header and footer (deep Royal Blue tone) */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #1f2a48;
+    color: #ffffff;
+}
+
+/* Sections */
+.dark-mode section {
+    background-color: #1e1e2f;
+    color: #E0E0E0;
+}
+
+/* Welcome section */
+.dark-mode #welcome {
+    background-color: #1e1e2f;
+    color: #E0E0E0;
+}
+
+/* Links */
+.dark-mode a {
+    color: #4EAFFF;
+}
+
+/* Map container */
+.dark-mode .map-container {
+    background-color: #20233c;
+}
+
+/* Toggle button styling in dark mode */
+.dark-mode #darkToggle {
+    background-color: #2a2a40;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Base button styles */
+#darkToggle {
+  background-color: #4169E1; /* royal blue */
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgb(65 105 225 / 0.4);
+}
+
+/* Hover effect */
+#darkToggle:hover {
+  background-color: #27408b; /* darker blue */
+  box-shadow: 0 6px 12px rgb(39 64 139 / 0.6);
+}
+
+/* Dark mode button style */
+.dark-mode #darkToggle {
+  background-color: #7289da; /* lighter blue */
+  color: #222;
+  box-shadow: 0 4px 8px rgb(114 137 218 / 0.6);
+}
+
+.dark-mode #darkToggle:hover {
+  background-color: #9ab3f5;
+  color: #111;
+  box-shadow: 0 6px 12px rgb(154 179 245 / 0.8);
+}
+
+footer {
+    background: #4169E1;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+.footer-link {
+    color: #F4F8FF;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #d1d9ff;
+    text-decoration: underline;
+}
